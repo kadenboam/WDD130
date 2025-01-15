@@ -7,9 +7,9 @@ Fonts are separated by a & */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #2596BE   ;
-  --secondary-color: #EE5B35 ;
+  --secondary-color: #542E71 ;
   --accent1-color: #30323b;
-  --accent2-color: #542E71;
+  --accent2-color: #EE5B35;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Mystery Quest"; 
@@ -21,8 +21,8 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #30323b; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #542E71  ;
-  --nav-link-color: white;
-  --nav-background-color: #EE5B35;
+  --nav-link-color: #2596BE;
+  --nav-background-color: #30323b;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
