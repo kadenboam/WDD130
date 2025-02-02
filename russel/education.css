@@ -1,0 +1,44 @@
+
+
+
+
+* {
+    background-color: #76B4DF;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+h1, p.white, h2  {
+    color: white;
+}
+
+img {
+    width: 15%;
+}
+
+h1:hover {
+    color: black;
+}
+
+header p.font{
+    color: white;
+    font-size: 8.5px;
+}
+
+header p.person{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+main p.list{
+    font-size: 10px;
+    text-align: left;
+    width: 35%;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 13px;
+}

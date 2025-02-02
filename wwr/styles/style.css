@@ -1,0 +1,70 @@
+img.icon {
+    width: 80px;
+}
+img.logo {
+    max-width: 300px;
+}
+
+#content {
+    /*Stops the page from growing abnormally large, doesn't hinder shrinking. */
+    max-width: 1600px;
+    /*Centers the page*/
+    margin: 0 auto;
+    color: white;
+}
+
+nav a, footer a, a.book, a.join {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #EE5B35;
+}
+
+footer a:hover, a.book:hover, a.join:hover {
+    color: white;
+    background-color: #2596BE;
+}
+
+body {
+    background-color: #4d4e51; 
+}
+
+header {
+    background-color:#2596BE ;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #542E71;
+}
+
+section.msg {
+    background-color: #2596BE;
+}
+
+footer {
+    background-color: #542E71;
+}
+footer p {
+    font-size: 1.5em;
+}   
+
+footer p:hover {
+    text-decoration: underline;
+}   

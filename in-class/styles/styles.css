@@ -1,0 +1,77 @@
+/*ctrl S- saves the file, and changes open servers look*/
+
+/*styles both the nav and footer elements*/
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+/*descendant selector*/
+/*goes into the footer element and styles the p tag*/
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+/*other ways are class or id selectors*/
+/*class selectors us .class_selector_name
+while id selectors us #id_selector_name*/
+
+/*this is a pseudo class selector*/
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+/*the :hover pseudo class means it will apear when the mouse is over the element*/
+
+/*how to control an image size*/
+img {
+    width: 80%;
+}
+
+/*how to control the size of * - which is everything*/
+* {
+    border: 2px solid blue;
+}
+/*the blue border shows the "boxes" of the elements*/
+
+/*how to move the text to the center of the page as a whole
+body {
+    text-align: center;
+}
+*/
+
+/*but we just want these to be centered*/
+h1, nav, footer {
+    text-align: center;
+}
+
+/*text-align centers things inside the box*/
+/*images are the box, so text-align can not center images*/
+
+/*usually changes are done to img above*/
+/*but keeping this order for the sake of the walkthrough*/
+img {
+    /*remember this changed the size*/
+    width: 80%;
+    /*image by default is inline, so this changes it to block*/
+    display: block;
+    /*and with that this can center the image*/
+    margin: 0 auto;
+}
+
+/*this is how to center the text in the main element*/
+main p {
+    width: 80%;
+    margin: 0 auto;
+}
+/*display block is not needed because text is block by default*/
+/*this centers the box, but the text is still left aligned*/
+main p {
+    width: 80%;
+    /*this adds space to the top and bottom of the box*/
+    margin: 50px auto;
+    text-align: center;
+}
+/*this centers the text in the box*/
