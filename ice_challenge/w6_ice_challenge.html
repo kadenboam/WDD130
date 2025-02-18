@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        background-color: white;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+    }
+
+    body img {
+        width: 100%;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    #background {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        background-color: #b9b8b9;
+    }
+    .not_red {
+        background: rgba(0, 0, 0, 0);
+        /* color: #9c0e11; */
+        align-self: center;
+        justify-self: center;
+        font-size: 14vw;
+        letter-spacing: 0.05em;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        font-weight: bold;
+        z-index: 1;
+        margin-top: 10%;
+        margin-right: 4%;
+    }
+    .red {
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        color: #9c0e11;
+        justify-self: center;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        font-size: 6vw;
+        letter-spacing: 0.3em;
+        font-weight: bold;
+        margin-top: 65%;
+        margin-bottom: 0;
+    }
+</style>
+
+<body>
+    <img src="cherries.png" alt="Cherries image" />
+    <div id="background">
+    </div>
+    <p class="not_red">
+        Tart & Sweet
+    </p>
+    <p class="red">
+        Cherries
+    </p>
+</body>
+</html>
