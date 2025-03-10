@@ -335,7 +335,6 @@ textarea {
   /* Match form field borders */
   border: 2px solid var(--o2-color);
   border-radius: 5px;
-  
 }
 input:focus,
 textarea:focus {
@@ -359,6 +358,19 @@ textarea {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+    }
+    .moveDown {
+        margin-top: 2.4em;
+    }
   /* Contact Us CSS End */
 
 
@@ -399,6 +411,9 @@ div.social {
 }
 
 @media screen and (max-width: 900px) {
+    .moveDown {
+        margin-top: 3.5em;
+    }
     img.logo {
         width: 175%;
         border-radius: 100px;
