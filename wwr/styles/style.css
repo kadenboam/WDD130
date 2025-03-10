@@ -80,7 +80,7 @@ nav a:hover, a.join:hover, a.book:hover{
     background-color: var(--o2-color);
 }
 
-nav a:hover, a.question:hover {
+.button-box a.question:hover {
     color: white;
     background-color: var(--main-color);
 }
