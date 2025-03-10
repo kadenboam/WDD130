@@ -43,11 +43,12 @@ img.logo {
     color: white;
 }
 
-nav a, footer a, a.book, a.join {
+nav a, footer a, a.book, a.join, a.question {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
+
 
 nav a {
     padding: 35px;
@@ -66,9 +67,22 @@ a.book, a.join {
     border-radius: 5px;
 }
 
+a.question {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: var(--other-color);
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
 nav a:hover, a.join:hover, a.book:hover{
     color: white;
     background-color: var(--o2-color);
+}
+
+nav a:hover, a.question:hover {
+    color: white;
+    background-color: var(--main-color);
 }
 
 footer a:hover {
@@ -216,6 +230,7 @@ main {
     box-shadow: 5px 5px 10px var(--o2-color);
 }
 
+/* Page 2 CSS */
 #background_1 {
     grid-column: 1/11;
     grid-row: 9/14;
@@ -285,6 +300,66 @@ main {
     grid-row: 21/22;
     box-shadow: 5px 5px 10px var(--o2-color);
 }
+/* Pge 2 CSS END*/
+
+/* Contact Us CSS */
+form {
+    grid-column: 3/9;
+    text-align: center;
+    display: inline-block;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: var(--other-color);
+    color: white;
+    box-shadow: 5px 5px 10px var(--main-color);
+}
+form h1 {
+    letter-spacing: 3px;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, text areas have a monospace font */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  /* Match form field borders */
+  border: 2px solid var(--o2-color);
+  border-radius: 5px;
+  
+}
+input:focus,
+textarea:focus {
+  /* Set the outline width and style */
+  outline-style: solid;
+  /* To give a little highlight on active elements */
+  outline-color: #000;
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  /* Contact Us CSS End */
 
 
 img.icon {
@@ -311,6 +386,7 @@ footer {
 }
 
 footer p {
+    color: white;
     font-size: 1em;
 }   
 
