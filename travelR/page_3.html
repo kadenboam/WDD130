@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/r_travel.png" alt="Logo">
+        </a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <a href="page_2.html">Travel Methods</a>
+            <a href="page_3.html">Things to Remember</a>
+            <a href="site-plan-personal.html">Site Plan</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Medium length features headline</h1>
+        <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut.
+        </p>
+    </div>
+    <main class="page_2">
+        <div class="tab-container">
+            <div class="tab_3" onclick="toggleTabContent(this)">Click to reveal more information</div>
+            <div class="tab-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ligula sed mi egestas malesuada. Donec accumsan purus ut neque aliquet, et varius mi molestie.</p>
+            </div>
+        </div>
+        <div class="tab-container">
+            <div class="tab_3" onclick="toggleTabContent(this)">Click to reveal more information</div>
+            <div class="tab-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ligula sed mi egestas malesuada. Donec accumsan purus ut neque aliquet, et varius mi molestie.</p>
+            </div>
+        </div>
+        <div class="tab-container">
+            <div class="tab_3" onclick="toggleTabContent(this)">Click to reveal more information</div>
+            <div class="tab-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ligula sed mi egestas malesuada. Donec accumsan purus ut neque aliquet, et varius mi molestie.</p>
+            </div>
+        </div>
+        <script>
+            function toggleTabContent(tab) {
+                const content = tab.nextElementSibling;
+                content.style.display = content.style.display === 'none' || content.style.display === '' ? 'block' : 'none';
+            }
+        </script>
+    </main>
+    <footer>
+        <a id="logo_link" href="index.html">
+            <img class="logo_small" src="images/r_travel.png" alt="Logo">
+        </a>
+        <nav class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="page_2.html">Travel Methods</a>
+            <a href="page_3.html">Things to Remember</a>
+            <a href="site-plan-personal.html">Site Plan</a>
+        </nav>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.jpg" alt="X/instagram icon">
+            </a>
+        </div>
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
