@@ -72,6 +72,8 @@ header .nav-links a, footer .nav-links a {
 .hero {
     padding: 20px;
     text-align: center;
+    background-color: var(--main-color);
+
 }
 
 .hero .hero-headline {
@@ -80,11 +82,21 @@ header .nav-links a, footer .nav-links a {
 }
 
 .hero img {
-    width: 100%;
     max-width: 600px;
-    
-    background-color: #ccc;
+    max-height: 600px;
+    background-color: var(--main-color);
     margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    background-color: var(--other-color);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .hero .buttons {
@@ -119,17 +131,24 @@ main.index {
 }
 
 main .blog-card {
+    align-self: center;
     width: 30%;
-    background-color: #f8f8f8;
+    color: white;
+    background-color: var(--other-color);
     padding: 20px;
     text-align: center;
+    border-radius: 20px;
 }
 
 main .blog-card .blog-image {
     width: 100%;
-    height: 150px;
     background-color: #ccc;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.category {
+    font-size: 30px;
 }
 
 footer .social-icons {
@@ -250,11 +269,6 @@ footer a, footer p{
 h1 {
     font-size: 32px;
     margin-top: 20px;
-}
-.hero p {
-    font-size: 16px;
-    color: #666;
-    margin-top: 10px;
 }
 
 .tab_3 {
