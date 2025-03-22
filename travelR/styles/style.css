@@ -91,7 +91,7 @@ header .nav-links a, footer .nav-links a {
 }
 
 .hero p {
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     margin-top: 10px;
     background-color: var(--other-color);
