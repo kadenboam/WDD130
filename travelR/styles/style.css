@@ -178,9 +178,8 @@ img.logo_small {
     border-radius: 20px;
 }
 
-#logo_link {
+.logo_link {
     justify-self: left;
-    align-self: left;
     max-width: 100px;
 }
 
@@ -283,7 +282,7 @@ h1 {
         width: 125%;
         border-radius: 50px;
     }
-    nav, footer a, {
+    nav, footer a {
         flex-direction: column;
     }
     nav a {
