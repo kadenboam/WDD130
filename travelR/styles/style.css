@@ -505,6 +505,14 @@ textarea {
         padding: 0px;
         border-radius: 0px;
     }
+    main.index {
+        flex-direction: column;
+        align-items: center;
+    }
+    main .blog-card {
+        width: 80%;
+        margin: 10px 0;
+    }
     .main-section a {
         padding: 10px;
         background-color: var(--main-color);
